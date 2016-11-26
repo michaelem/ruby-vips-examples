@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    glib2 (3.0.8)
+      pkg-config
+    gobject-introspection (3.0.8)
+      glib2 (= 3.0.8)
+    pkg-config (1.1.7)
+    ruby-vips (1.0.3)
+      gobject-introspection (= 3.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby-vips (~> 1.0)
+
+BUNDLED WITH
+   1.12.5
